@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\TODO-app.csproj": {}
+    "C:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\TODO-app.csproj": {}
   },
   "projects": {
-    "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\TODO-app.csproj": {
+    "C:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\TODO-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\TODO-app.csproj",
+        "projectUniqueName": "C:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\TODO-app.csproj",
         "projectName": "TODO-app",
-        "projectPath": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\TODO-app.csproj",
+        "projectPath": "C:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\TODO-app.csproj",
         "packagesPath": "C:\\Users\\v.vitko\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\",
+        "outputPath": "C:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\v.vitko\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

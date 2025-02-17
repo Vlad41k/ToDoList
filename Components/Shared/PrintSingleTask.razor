@@ -1,0 +1,35 @@
+@rendermode InteractiveServer
+            <td class="@(Task.Status==Models.Status.NotStarted? "div-item task-status task-not-started" : "")
+                        @(Task.Status==Models.Status.InProgress? "div-item task-status task-in-progress" : "")
+                        @(Task.Status==Models.Status.Completed? "div-item task-status task-completed" : "")">  
+            </td>
+
+            <td class="div-item">
+                <button type="button" class="btn-edit" @ondblclick="(() => OpenTheTaskManager.InvokeAsync(Task))">@Task.Name</button>
+            </td>
+            
+
+            <td class="div-item">
+                @if(Task.Status == Models.Status.NotStarted)
+                {
+                    <button type="button" class="btn-start" @onclick="(() => StartTheTask.InvokeAsync(Task.Id))"></button>
+                }
+            </td>
+
+            <td class="div-item">
+                @if(Task.Status == Models.Status.InProgress)
+                {
+                    <button type="button" class="btn-complete" @onclick="(() => CompleteTheTask.InvokeAsync(Task.Id))">&#10003;</button>
+                }
+            </td>
+        <td class="div-item">
+            <button type="button" class="btn-remove" @onclick="() => RemoveTheTask.InvokeAsync(Task.Id)">&#10007;</button>
+        </td>
+@code {
+    [Parameter] public Models.Task Task { get; set; }
+    [Parameter] public EventCallback<int> StartTheTask { get; set; }
+    [Parameter] public EventCallback<int> CompleteTheTask { get; set; }
+    [Parameter] public EventCallback<int> RemoveTheTask { get; set; }
+    [Parameter] public EventCallback<Models.Task> OpenTheTaskManager { get; set; }
+ 
+}  

@@ -13,10 +13,6 @@ namespace TODO_app.Services
             optionsBuilder.UseSqlServer("Server=sr0sql01;Database=KorData-DEV;Trusted_Connection=True;");
         }
 
-        // public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-        // {
-
-        // }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasDefaultSchema("vlad");

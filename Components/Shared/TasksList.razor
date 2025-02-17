@@ -1,0 +1,77 @@
+@rendermode InteractiveServer
+<div class="main-area">
+    <div>
+        <button style="font-size:25px;" class="btn-taskcreate " @onclick="(() => OpenTaskManager(null))">Create a new task</button>
+        <table style="font-size:25px; border:1px solid black">
+            @if (takenTasks != null)
+            {
+                @foreach (Models.Task task in takenTasks)
+                {
+                    <tr style="border:1px solid black">
+                        <PrintSingleTask Task="task" StartTheTask="StartTask" OpenTheTaskManager="OpenTaskManager" 
+                                        CompleteTheTask="CompleteTask" RemoveTheTask="RemoveTask"/>
+                    </tr>
+                }   
+            }   
+        </table>
+    </div>
+</div>
+<TaskEditor DataEdited="LoadTasks" @ref="TaskEditorRef" />
+
+@code {
+
+    private TaskEditor TaskEditorRef;
+    private List<Models.Task>takenTasks;
+    protected override void OnInitialized()
+    {
+        LoadTasks();
+    }
+    private void OpenTaskManager(Models.Task? task)
+    {
+        TaskEditorRef.Show(task);
+    }
+    private void StartTask(int Id)
+    {
+        using(var context = new Services.ApplicationDbContext())
+        {
+            var TaskToComplete = context.Tasks.Where(x => x.Id == Id).FirstOrDefault();
+            if (TaskToComplete is Models.Task)
+            {
+                TaskToComplete.Status = Models.Status.InProgress;
+            }
+            context.SaveChanges();
+        }
+        LoadTasks();
+    }
+    private void CompleteTask(int Id)
+    {
+        using(var context = new Services.ApplicationDbContext())
+        {
+            var TaskToComplete = context.Tasks.Where(x => x.Id == Id).FirstOrDefault();
+            if (TaskToComplete is Models.Task)
+            {
+                TaskToComplete.Status = Models.Status.Completed;
+            }
+            context.SaveChanges();
+        }
+        LoadTasks();
+    }
+    private void RemoveTask(int Id)
+    {
+        using(var context = new Services.ApplicationDbContext())
+        {
+            var TaskToRemove = context.Tasks.Where(x => x.Id == Id).FirstOrDefault();
+            if (TaskToRemove is Models.Task)
+            {
+                context.Remove(TaskToRemove);
+            }
+            context.SaveChanges();
+        }
+        LoadTasks();
+    }
+    private void LoadTasks()
+    {
+        using var context = new Services.ApplicationDbContext();
+        takenTasks = context.Tasks.ToList();
+    }
+}  

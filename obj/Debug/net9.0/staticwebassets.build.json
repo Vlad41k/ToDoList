@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NkrTAQPQrp9WudwauDFl9QUXfRuboOp692OEtugpsGc=",
+  "Hash": "ZnMB0flYvDtjImiTYzTF9eCQJWey2S6YBABp5j3EROk=",
   "Source": "TODO-app",
   "BasePath": "_content/TODO-app",
   "Mode": "Default",
@@ -542,12 +542,12 @@
       "OriginalItemSpec": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\f3gplp22b2-1jsxh0a28k.gz",
+      "Identity": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\f3gplp22b2-nqmsxiep5j.gz",
       "SourceId": "TODO-app",
       "SourceType": "Computed",
       "ContentRoot": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TODO-app",
-      "RelativePath": "TODO-app#[.{fingerprint=1jsxh0a28k}]?.styles.css.gz",
+      "RelativePath": "TODO-app#[.{fingerprint=nqmsxiep5j}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -556,8 +556,8 @@
       "RelatedAsset": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TODO-app.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ool3er6aqj",
-      "Integrity": "eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE=",
+      "Fingerprint": "kbp02u2f32",
+      "Integrity": "0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TODO-app.styles.css"
@@ -731,12 +731,12 @@
       "OriginalItemSpec": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\pe79023blm-1jsxh0a28k.gz",
+      "Identity": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\pe79023blm-nqmsxiep5j.gz",
       "SourceId": "TODO-app",
       "SourceType": "Computed",
       "ContentRoot": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TODO-app",
-      "RelativePath": "TODO-app#[.{fingerprint=1jsxh0a28k}]!.bundle.scp.css.gz",
+      "RelativePath": "TODO-app#[.{fingerprint=nqmsxiep5j}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -745,8 +745,8 @@
       "RelatedAsset": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TODO-app.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ool3er6aqj",
-      "Integrity": "eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE=",
+      "Fingerprint": "kbp02u2f32",
+      "Integrity": "0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TODO-app.bundle.scp.css"
@@ -1018,8 +1018,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "1jsxh0a28k",
-      "Integrity": "UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM=",
+      "Fingerprint": "nqmsxiep5j",
+      "Integrity": "H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TODO-app.styles.css"
@@ -1039,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "1jsxh0a28k",
-      "Integrity": "UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM=",
+      "Fingerprint": "nqmsxiep5j",
+      "Integrity": "H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TODO-app.bundle.scp.css"
@@ -15506,13 +15506,13 @@
       ]
     },
     {
-      "Route": "TODO-app.1jsxh0a28k.bundle.scp.css",
-      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\pe79023blm-1jsxh0a28k.gz",
+      "Route": "TODO-app.bundle.scp.css",
+      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\pe79023blm-nqmsxiep5j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000561482313"
+          "Quality": "0.000459136823"
         }
       ],
       "ResponseHeaders": [
@@ -15522,19 +15522,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1780"
+          "Value": "2177"
         },
         {
           "Name": "ETag",
-          "Value": "\"eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE=\""
+          "Value": "\"0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 09:29:36 GMT"
+          "Value": "Mon, 17 Feb 2025 08:50:44 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -15550,26 +15550,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM=\""
+          "Value": "W/\"H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "1jsxh0a28k"
-        },
-        {
-          "Name": "label",
-          "Value": "TODO-app.bundle.scp.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM="
+          "Value": "sha256-H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U="
         }
       ]
     },
     {
-      "Route": "TODO-app.1jsxh0a28k.bundle.scp.css",
+      "Route": "TODO-app.bundle.scp.css",
       "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TODO-app.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -15579,7 +15571,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5963"
+          "Value": "7450"
         },
         {
           "Name": "Content-Type",
@@ -15587,11 +15579,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM=\""
+          "Value": "\"H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 09:29:36 GMT"
+          "Value": "Mon, 17 Feb 2025 08:50:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U="
+        }
+      ]
+    },
+    {
+      "Route": "TODO-app.bundle.scp.css.gz",
+      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\pe79023blm-nqmsxiep5j.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 08:50:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM="
+        }
+      ]
+    },
+    {
+      "Route": "TODO-app.nqmsxiep5j.bundle.scp.css",
+      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\pe79023blm-nqmsxiep5j.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000459136823"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2177"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 08:50:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nqmsxiep5j"
+        },
+        {
+          "Name": "label",
+          "Value": "TODO-app.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U="
+        }
+      ]
+    },
+    {
+      "Route": "TODO-app.nqmsxiep5j.bundle.scp.css",
+      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TODO-app.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 08:50:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15601,7 +15738,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1jsxh0a28k"
+          "Value": "nqmsxiep5j"
         },
         {
           "Name": "label",
@@ -15609,13 +15746,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM="
+          "Value": "sha256-H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U="
         }
       ]
     },
     {
-      "Route": "TODO-app.1jsxh0a28k.bundle.scp.css.gz",
-      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\pe79023blm-1jsxh0a28k.gz",
+      "Route": "TODO-app.nqmsxiep5j.bundle.scp.css.gz",
+      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\pe79023blm-nqmsxiep5j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15624,7 +15761,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1780"
+          "Value": "2177"
         },
         {
           "Name": "Content-Type",
@@ -15632,11 +15769,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE=\""
+          "Value": "\"0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 09:29:36 GMT"
+          "Value": "Mon, 17 Feb 2025 08:50:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15654,7 +15791,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1jsxh0a28k"
+          "Value": "nqmsxiep5j"
         },
         {
           "Name": "label",
@@ -15662,18 +15799,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE="
+          "Value": "sha256-0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM="
         }
       ]
     },
     {
-      "Route": "TODO-app.1jsxh0a28k.styles.css",
-      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\f3gplp22b2-1jsxh0a28k.gz",
+      "Route": "TODO-app.nqmsxiep5j.styles.css",
+      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\f3gplp22b2-nqmsxiep5j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000561482313"
+          "Quality": "0.000459136823"
         }
       ],
       "ResponseHeaders": [
@@ -15683,15 +15820,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1780"
+          "Value": "2177"
         },
         {
           "Name": "ETag",
-          "Value": "\"eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE=\""
+          "Value": "\"0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 09:29:36 GMT"
+          "Value": "Mon, 17 Feb 2025 08:50:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15711,13 +15848,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM=\""
+          "Value": "W/\"H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1jsxh0a28k"
+          "Value": "nqmsxiep5j"
         },
         {
           "Name": "label",
@@ -15725,12 +15862,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM="
+          "Value": "sha256-H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U="
         }
       ]
     },
     {
-      "Route": "TODO-app.1jsxh0a28k.styles.css",
+      "Route": "TODO-app.nqmsxiep5j.styles.css",
       "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TODO-app.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -15740,7 +15877,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5963"
+          "Value": "7450"
         },
         {
           "Name": "Content-Type",
@@ -15748,11 +15885,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM=\""
+          "Value": "\"H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 09:29:36 GMT"
+          "Value": "Mon, 17 Feb 2025 08:50:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15762,7 +15899,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1jsxh0a28k"
+          "Value": "nqmsxiep5j"
         },
         {
           "Name": "label",
@@ -15770,13 +15907,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM="
+          "Value": "sha256-H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U="
         }
       ]
     },
     {
-      "Route": "TODO-app.1jsxh0a28k.styles.css.gz",
-      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\f3gplp22b2-1jsxh0a28k.gz",
+      "Route": "TODO-app.nqmsxiep5j.styles.css.gz",
+      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\f3gplp22b2-nqmsxiep5j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15785,7 +15922,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1780"
+          "Value": "2177"
         },
         {
           "Name": "Content-Type",
@@ -15793,11 +15930,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE=\""
+          "Value": "\"0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 09:29:36 GMT"
+          "Value": "Mon, 17 Feb 2025 08:50:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15815,7 +15952,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1jsxh0a28k"
+          "Value": "nqmsxiep5j"
         },
         {
           "Name": "label",
@@ -15823,155 +15960,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE="
-        }
-      ]
-    },
-    {
-      "Route": "TODO-app.bundle.scp.css",
-      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\pe79023blm-1jsxh0a28k.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000561482313"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1780"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 09:29:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM="
-        }
-      ]
-    },
-    {
-      "Route": "TODO-app.bundle.scp.css",
-      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TODO-app.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5963"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 09:29:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM="
-        }
-      ]
-    },
-    {
-      "Route": "TODO-app.bundle.scp.css.gz",
-      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\pe79023blm-1jsxh0a28k.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1780"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 09:29:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE="
+          "Value": "sha256-0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM="
         }
       ]
     },
     {
       "Route": "TODO-app.styles.css",
-      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\f3gplp22b2-1jsxh0a28k.gz",
+      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\f3gplp22b2-nqmsxiep5j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000561482313"
+          "Quality": "0.000459136823"
         }
       ],
       "ResponseHeaders": [
@@ -15981,15 +15981,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1780"
+          "Value": "2177"
         },
         {
           "Name": "ETag",
-          "Value": "\"eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE=\""
+          "Value": "\"0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 09:29:36 GMT"
+          "Value": "Mon, 17 Feb 2025 08:50:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16009,13 +16009,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM=\""
+          "Value": "W/\"H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM="
+          "Value": "sha256-H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U="
         }
       ]
     },
@@ -16030,7 +16030,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5963"
+          "Value": "7450"
         },
         {
           "Name": "Content-Type",
@@ -16038,11 +16038,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM=\""
+          "Value": "\"H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 09:29:36 GMT"
+          "Value": "Mon, 17 Feb 2025 08:50:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16052,13 +16052,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UyDpg4qBeC7JUP0731CIAUNas5t/hSuA3V0YkT9cMBM="
+          "Value": "sha256-H8uZAD2qqdpN0SIJAOoh0KegZuh1/boRGKdeeFNd10U="
         }
       ]
     },
     {
       "Route": "TODO-app.styles.css.gz",
-      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\f3gplp22b2-1jsxh0a28k.gz",
+      "AssetFile": "c:\\Users\\v.vitko\\Desktop\\Prakticum\\TODO-app\\obj\\Debug\\net9.0\\compressed\\f3gplp22b2-nqmsxiep5j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16067,7 +16067,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1780"
+          "Value": "2177"
         },
         {
           "Name": "Content-Type",
@@ -16075,11 +16075,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE=\""
+          "Value": "\"0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 09:29:36 GMT"
+          "Value": "Mon, 17 Feb 2025 08:50:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16097,7 +16097,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eHUY3eg4yGbweiC55K4NKL38aR38aPpeNQQd4RC3hkE="
+          "Value": "sha256-0CXu8ejHPgrXRQVj8hW31KZrkiZXw7mAZABdwa/kURM="
         }
       ]
     }
