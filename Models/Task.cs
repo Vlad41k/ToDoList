@@ -20,6 +20,13 @@ namespace TODO_app.Models
         public DateTime CreateDate { get; set; }
         public Status Status { get; set; }
 
-
+        public Task(string name, string description)
+        {
+            User = new User(); 
+            Name = name;
+            Description = description;
+            CreateDate = DateTime.Now;
+            Status = Status.NotStarted;
+        }
     }  
 }

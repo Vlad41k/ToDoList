@@ -1,0 +1,13 @@
+@rendermode InteractiveServer
+
+<button class="btn btn-taskcreate" @onclick="CreateTask">Create new task</button>
+
+<CreateTaskWindow @ref="CreateTaskWindowRef" />
+
+@code {
+    private CreateTaskWindow CreateTaskWindowRef;
+    private void CreateTask()
+    {
+        CreateTaskWindowRef.Show();
+    }
+}

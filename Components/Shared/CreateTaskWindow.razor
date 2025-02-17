@@ -1,0 +1,60 @@
+@{
+    var showClass = IsVisible ? "d-block" : "d-none";
+}
+
+<div class="toast-container p-3 @showClass" data-bs-autohide="true" data-bs-delay="5000">
+    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <strong class="me-auto">@HeaderText</strong>
+            <button type="button" class="btn-close" aria-label="Close" @onclick="Close"></button>
+        </div>
+
+        <div class="toast-body" style="background-color:rgb(247, 231, 205);">
+            <div style="margin: 5px 5px 5px 5px;">Task name:</div>
+            <input type="text" id="TaskName" name="TaskName" maxlength="20"@bind= "taskName" style="width: 200px;"/>
+            <div style="margin: 5px 5px 5px 5px;">Task description:</div>
+            <div><textarea id="taskDescription" name="taskDescription" rows="10" cols="25" @bind= "taskDescription"></textarea></div>
+            @* <div contenteditable="true" style="border: 1px solid; width: 200px; height: 200px; overflow: auto; background-color:#ffffff;"></div> *@
+            <button class="TaskSubmit" @onclick="AddTask" style="margin-top: 10px;">Submit</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    
+    private string taskName = "";
+    private string taskDescription = "";
+    [Parameter]
+    public bool IsVisible { get; set; }
+
+    [Parameter]
+    public EventCallback<bool> IsVisibleChanged { get; set; }
+
+    [Parameter]
+    public string? HeaderText { get; set; }
+
+    public void Show(string headerText = "Task Creation")
+    {
+        HeaderText = headerText;
+        IsVisible = true;
+        StateHasChanged();
+    }
+
+    private void Close()
+    {
+        HeaderText = string.Empty;
+        IsVisible = false;
+        StateHasChanged();
+    }
+    private void AddTask()
+    {
+
+        using (var context = new Services.ApplicationDbContext())
+        {
+        var task = new Models.Task(taskName, taskDescription);
+        context.Tasks.Add(task);
+        context.SaveChanges();
+        }
+        Close();
+    }
+}    

@@ -8,11 +8,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
     
-builder.Services.AddDbContext<ApplicationDbContext> (options => 
-    {
-        string connectionString = builder.Configuration.GetConnectionString("DefaultConnection")!;
-        options.UseSqlServer(connectionString);
-    });
+// builder.Services.AddDbContext<ApplicationDbContext> (options => 
+//     {
+//         string connectionString = builder.Configuration.GetConnectionString("DefaultConnection")!;
+//         options.UseSqlServer(connectionString);
+//     });
 
 var app = builder.Build();
 
