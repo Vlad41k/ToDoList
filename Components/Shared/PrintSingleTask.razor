@@ -1,30 +1,31 @@
 @rendermode InteractiveServer
-            <td class="@(Task.Status==Models.Status.NotStarted? "div-item task-status task-not-started" : "")
-                        @(Task.Status==Models.Status.InProgress? "div-item task-status task-in-progress" : "")
-                        @(Task.Status==Models.Status.Completed? "div-item task-status task-completed" : "")">  
+            <td class="d-flex flex-row justify-content-center border-0 bg-transparent">
+                <i class="@(Task.Status==Models.Status.NotStarted? "bi bi-circle-fill text-danger" : "")
+                            @(Task.Status==Models.Status.InProgress? "bi bi-circle-fill text-primary" : "")
+                            @(Task.Status==Models.Status.Completed? "bi bi-circle-fill text-success" : "")">  
+                </i>
+            </td>
+            <td class="w-100 ">
+                <button type="button" class=" d-flex w-100 border-0 bg-transparent" @onclick="(() => OpenTheTaskManager.InvokeAsync(Task))">@Task.Name</button>
             </td>
 
-            <td class="div-item">
-                <button type="button" class="btn-edit" @ondblclick="(() => OpenTheTaskManager.InvokeAsync(Task))">@Task.Name</button>
-            </td>
-            
-
-            <td class="div-item">
+            <td class="d-flex flex-row-reverse border-0">
+                <button type="button" class="border-0 bg-transparent" @onclick="() => RemoveTheTask.InvokeAsync(Task.Id)">
+                    <i class="bi bi-x-octagon text-danger"></i>
+                </button>
                 @if(Task.Status == Models.Status.NotStarted)
                 {
-                    <button type="button" class="btn-start" @onclick="(() => StartTheTask.InvokeAsync(Task.Id))"></button>
+                    <button type="button" class="border-0 bg-transparent" @onclick="(() => StartTheTask.InvokeAsync(Task.Id))">
+                        <i class="bi bi-caret-right-square text-success"></i>
+                    </button>
                 }
-            </td>
-
-            <td class="div-item">
                 @if(Task.Status == Models.Status.InProgress)
                 {
-                    <button type="button" class="btn-complete" @onclick="(() => CompleteTheTask.InvokeAsync(Task.Id))">&#10003;</button>
+                    <button type="button" class="border-0 bg-transparent" @onclick="(() => CompleteTheTask.InvokeAsync(Task.Id))">
+                        <i class="bi bi-patch-check text-success"></i>
+                    </button>
                 }
             </td>
-        <td class="div-item">
-            <button type="button" class="btn-remove" @onclick="() => RemoveTheTask.InvokeAsync(Task.Id)">&#10007;</button>
-        </td>
 @code {
     [Parameter] public Models.Task Task { get; set; }
     [Parameter] public EventCallback<int> StartTheTask { get; set; }

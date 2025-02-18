@@ -199,6 +199,6 @@ c:\Users\v.vitko\Desktop\Prakticum\TODO-app\bin\Debug\net9.0\runtimes\win\lib\ne
 c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\TODO-app.csproj.AssemblyReference.cache
 c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\TODO-app.csproj.Up2Date
 c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\TODO-app.sourcelink.json
-c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\scopedcss\Components\Shared\PrintSingleTask.razor.rz.scp.css
-c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\compressed\f3gplp22b2-nqmsxiep5j.gz
-c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\compressed\pe79023blm-nqmsxiep5j.gz
+c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\scopedcss\Components\Shared\TaskEditorForm.razor.rz.scp.css
+c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\compressed\f3gplp22b2-ejg1bffgth.gz
+c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\compressed\pe79023blm-ejg1bffgth.gz

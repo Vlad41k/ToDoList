@@ -1,0 +1,75 @@
+@rendermode InteractiveServer
+@{
+    var showClass = IsVisible ? "d-block" : "d-none";
+}
+@using System.ComponentModel.DataAnnotations;
+
+
+<div class="h-100 m-3 d-flex flex-column align-items-left justify-content-center @showClass">
+    <div class="row formStyle p-0">
+        <div class="col-12 p-4">
+            <button type="button" class="btn-close btn btn-lg float-end" aria-label="Close" @onclick="Close"></button>
+            <h2 class="mt-3">Task Editor</h2>
+            <EditForm  Model="tempTask" OnValidSubmit="HandleValidSubmit">
+                <DataAnnotationsValidator />
+                <div class="mb-3">
+                    <label class="form-label" for="name">Task name:</label>
+                    <InputText class="form-control" id="name" @bind-Value="tempTask.Name" />
+                    <ValidationMessage For="@(() => tempTask.Name)" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="descriotion">Task Description:</label>
+                    <InputTextArea class="form-control" id="descriotion" @bind-Value="tempTask.Description" rows="4" />
+                    <ValidationMessage For="@(() => tempTask.Description)" />
+                </div>
+                <div class="text-end">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+            </EditForm>
+        </div>
+
+    </div>
+
+</div>
+
+@code {
+    [Parameter] public EventCallback DataEdited { get; set; }
+    [Parameter] public bool IsVisible { get; set; } = false;
+    private Models.Task tempTask = new Models.Task("","");
+
+    public void Show(Models.Task? task)
+    {
+        tempTask = task is Models.Task? task : new Models.Task("","");
+        IsVisible = true;
+        StateHasChanged();
+    }
+        private void Close()
+    {
+        IsVisible = false;
+        DataEdited.InvokeAsync();
+        StateHasChanged();
+    }
+    private void HandleValidSubmit()
+    {
+        using (var context = new Services.ApplicationDbContext())
+        {
+            var task = tempTask;
+            if(context.Tasks.Select(x => x.Id).Contains(task.Id))
+            {
+                var TaskToUpdate = context.Tasks.Where(x => x.Id == task.Id).FirstOrDefault();;
+                if (TaskToUpdate is Models.Task)
+                {
+                    TaskToUpdate.Name = task.Name;
+                    TaskToUpdate.Description = task.Description;
+                }
+            }
+            else
+            {
+                context.Tasks.Add(task);
+            }
+            context.SaveChanges();
+        }
+        Close();
+    }
+
+}

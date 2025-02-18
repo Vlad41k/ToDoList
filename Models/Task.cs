@@ -13,16 +13,24 @@ namespace TODO_app.Models
     public class Task  
     {
         public int Id { get; set; }
+
         [Required]
-        public User User { get; set; }
+        public string User { get; set; }
+
+        [Required, MaxLength(25)]
         public string Name { get; set; } = "";
+
+        [Required]
+        [MaxLength(150, ErrorMessage="Description is to long.")]
         public string Description { get; set; } = "";
+
         public DateTime CreateDate { get; set; }
+        
         public Status Status { get; set; }
 
         public Task(string name, string description)
         {
-            User = new User(); 
+            User = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
             Name = name;
             Description = description;
             CreateDate = DateTime.Now;

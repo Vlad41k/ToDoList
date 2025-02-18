@@ -12,8 +12,8 @@ using TODO_app.Services;
 namespace TODOapp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250212092237_SecondTry")]
-    partial class SecondTry
+    [Migration("20250217122926_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -48,47 +48,13 @@ namespace TODOapp.Migrations
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Tasks", "vlad");
-                });
-
-            modelBuilder.Entity("TODO_app.Models.User", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
+                    b.Property<string>("User")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users", "vlad");
-                });
-
-            modelBuilder.Entity("TODO_app.Models.Task", b =>
-                {
-                    b.HasOne("TODO_app.Models.User", "User")
-                        .WithMany("Tasks")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("TODO_app.Models.User", b =>
-                {
-                    b.Navigation("Tasks");
+                    b.ToTable("Tasks", "vlad");
                 });
 #pragma warning restore 612, 618
         }

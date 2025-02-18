@@ -203,64 +203,23 @@ main[b-l1bzjq4ilo] {
         overflow-y: auto;
     }
 }
-/* _content/TODO-app/Components/Shared/PrintSingleTask.razor.rz.scp.css */
-
-.div-item[b-w99y7xzk3y]{
-    margin: 10px;
-}
-.btn-start[b-w99y7xzk3y]{
-    width: 25px;
-    height: 25px;
-    border: 0px;
-    background-color: white; 
-    background-image: linear-gradient(rgb(152, 245, 134), rgb(138, 246, 84), rgb(131, 238, 78), rgb(75, 178, 24));
-    clip-path: polygon(50% 0, 100% 100%, 0 100%);
-    transform: rotate(90deg);
-}   
-
-.btn-edit[b-w99y7xzk3y]{
-    border: 0px;
-    background-color: white;  
+/* _content/TODO-app/Components/Shared/TaskEditorForm.razor.rz.scp.css */
+.formStyle[b-0tuewa8r4p] {
+    width: 25%;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #F5F5F5;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.task-not-started[b-w99y7xzk3y]{
-    width: 20px;
-    height: 20px;
-    background-image: radial-gradient(circle, #fac6c6, #f2856f, #b62222, #681505);
-    border-radius: 50%;
-    display: inline-block;
-}
 
-.task-in-progress[b-w99y7xzk3y]{
-    width: 20px;
-    height: 20px;
-    background: radial-gradient(circle, #cbb3f5, #66acf2, #1825b4, #060669);
-    border-radius: 50%;
-    display: inline-block;
+/* typical phone screen resolution */
+@media only screen and (max-width : 667px) {
 }
-
-.task-completed[b-w99y7xzk3y]{
-    width: 20px;
-    height: 20px;
-    background: radial-gradient(#9bf990,#6cf25e,#117905, #04600d);
-    border-radius: 50%;
-    display: inline-block;
+/* landscape orientation */
+@media only screen and (min-width : 375px) and (max-width : 667px) and (orientation : landscape) {
 }
-
-.btn-complete[b-w99y7xzk3y]{
-    width: 30px;
-	height: 30px;
-    border: 0px;
-    background-color: white;  
-    display: inline-block;
-    color: rgb(42, 250, 87);
-    padding: 0 6px 0 0;
-}
-
-.btn-remove[b-w99y7xzk3y]{
-    width: 30px;
-	height: 30px; 
-    border: 0px;
-    background-color: white;
-    color: rgb(246, 28, 28);
+/* portrait orientation */
+@media only screen and (min-width : 375px) and (max-width : 667px) and (orientation : portrait) {
 }

@@ -1,26 +1,32 @@
 @rendermode InteractiveServer
-<div class="main-area">
-    <div>
-        <button style="font-size:25px;" class="btn-taskcreate " @onclick="(() => OpenTaskManager(null))">Create a new task</button>
-        <table style="font-size:25px; border:1px solid black">
-            @if (takenTasks != null)
+<div class="tableStyle">
+    <button style="font-size: 20px;" class="m-3 btn btn-outline-dark" @onclick="(() => OpenTaskManager(null))">Create a new task</button>
+    <table class="w-100 fs-3 table table-striped border border-dark">
+        @if (takenTasks != null)
+        {  
+            <thead class="thead-dark">
+                <tr>
+                    <th>Status</th>
+                    <th colspan="2">Task</th>
+                </tr>   
+            </thead>
+            @foreach (Models.Task task in takenTasks)
             {
-                @foreach (Models.Task task in takenTasks)
-                {
-                    <tr style="border:1px solid black">
+                <tbody>
+                    <tr class="border border-dark">
                         <PrintSingleTask Task="task" StartTheTask="StartTask" OpenTheTaskManager="OpenTaskManager" 
-                                        CompleteTheTask="CompleteTask" RemoveTheTask="RemoveTask"/>
+                                         CompleteTheTask="CompleteTask" RemoveTheTask="RemoveTask"/>
                     </tr>
-                }   
+                </tbody>
             }   
-        </table>
-    </div>
+        }   
+    </table>
 </div>
-<TaskEditor DataEdited="LoadTasks" @ref="TaskEditorRef" />
+<TaskEditorForm DataEdited="LoadTasks" @ref="TaskEditorFormRef" />
 
 @code {
 
-    private TaskEditor TaskEditorRef;
+    private TaskEditorForm TaskEditorFormRef;
     private List<Models.Task>takenTasks;
     protected override void OnInitialized()
     {
@@ -28,7 +34,7 @@
     }
     private void OpenTaskManager(Models.Task? task)
     {
-        TaskEditorRef.Show(task);
+        TaskEditorFormRef.Show(task);
     }
     private void StartTask(int Id)
     {
@@ -72,6 +78,7 @@
     private void LoadTasks()
     {
         using var context = new Services.ApplicationDbContext();
-        takenTasks = context.Tasks.ToList();
+        takenTasks = context.Tasks.Where(x =>x.User == System.Security.Principal.WindowsIdentity.GetCurrent().Name)
+                                  .ToList();
     }
 }  
