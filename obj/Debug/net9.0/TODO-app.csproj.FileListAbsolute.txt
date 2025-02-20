@@ -200,5 +200,5 @@ c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\TODO-app.csproj.Ass
 c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\TODO-app.csproj.Up2Date
 c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\TODO-app.sourcelink.json
 c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\scopedcss\Components\Shared\TaskEditorForm.razor.rz.scp.css
-c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\compressed\f3gplp22b2-ejg1bffgth.gz
-c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\compressed\pe79023blm-ejg1bffgth.gz
+C:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\compressed\f3gplp22b2-9og0r22xyo.gz
+C:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\compressed\pe79023blm-9og0r22xyo.gz

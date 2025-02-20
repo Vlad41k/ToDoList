@@ -15,27 +15,39 @@
                 <tbody>
                     <tr class="border border-dark">
                         <PrintSingleTask Task="task" StartTheTask="StartTask" OpenTheTaskManager="OpenTaskManager" 
-                                         CompleteTheTask="CompleteTask" RemoveTheTask="RemoveTask"/>
+                                         CompleteTheTask="CompleteTask" RemoveTheTask="OpenDeleteDialog"/>
                     </tr>
                 </tbody>
             }   
         }   
     </table>
 </div>
-<TaskEditorForm DataEdited="LoadTasks" @ref="TaskEditorFormRef" />
+@if(TaskEditorOpen)
+{
+    <TaskEditorForm OnClose="OnTaskManagerClose" />
+}
+
+@if (DeleteDialogOpen)
+{
+    <ModalWindow Title="Are you sure?" Text="Do you want to delete this task?" OnClose="@OnDeleteDialogClose" DialogType="ModalWindow.ModalDialogType.DeleteCancel"></ModalWindow>
+}
 
 @code {
-
-    private TaskEditorForm TaskEditorFormRef;
     private List<Models.Task>takenTasks;
-    protected override void OnInitialized()
+    private int idTaskToDelete; 
+    public bool DeleteDialogOpen{get;set;}
+    public bool TaskEditorOpen{get;set;}
+
+
+    protected override void OnInitialized() => LoadTasks();
+    private void LoadTasks()
     {
-        LoadTasks();
+        using var context = new Services.ApplicationDbContext();
+        takenTasks = context.Tasks.Where(x =>x.User == System.Security.Principal.WindowsIdentity.GetCurrent().Name)
+                                  .ToList();
     }
-    private void OpenTaskManager(Models.Task? task)
-    {
-        TaskEditorFormRef.Show(task);
-    }
+
+
     private void StartTask(int Id)
     {
         using(var context = new Services.ApplicationDbContext())
@@ -62,23 +74,50 @@
         }
         LoadTasks();
     }
-    private void RemoveTask(int Id)
+    private void DeleteTask()
     {
         using(var context = new Services.ApplicationDbContext())
         {
-            var TaskToRemove = context.Tasks.Where(x => x.Id == Id).FirstOrDefault();
-            if (TaskToRemove is Models.Task)
+            var TaskToDelete = context.Tasks.Where(x => x.Id == idTaskToDelete).FirstOrDefault();
+            if (TaskToDelete is Models.Task)
             {
-                context.Remove(TaskToRemove);
+                context.Remove(TaskToDelete);
             }
             context.SaveChanges();
         }
         LoadTasks();
     }
-    private void LoadTasks()
+
+
+    private void OpenTaskManager(Models.Task? task)
     {
-        using var context = new Services.ApplicationDbContext();
-        takenTasks = context.Tasks.Where(x =>x.User == System.Security.Principal.WindowsIdentity.GetCurrent().Name)
-                                  .ToList();
+        Shared.TaskEditorForm.TakeTask(task);
+        TaskEditorOpen = true;
+        StateHasChanged();
     }
+    private void OnTaskManagerClose()
+    {
+        TaskEditorOpen = false;
+        LoadTasks();
+        StateHasChanged();
+    }
+
+
+    private void OnDeleteDialogClose(bool accepted)
+    {
+        if (accepted)
+        {
+            DeleteTask();
+        }
+        DeleteDialogOpen = false;
+        StateHasChanged();
+    }
+    private void OpenDeleteDialog(int Id)
+    {
+        DeleteDialogOpen = true;  
+        idTaskToDelete = Id;
+        StateHasChanged();
+    }
+
+
 }  

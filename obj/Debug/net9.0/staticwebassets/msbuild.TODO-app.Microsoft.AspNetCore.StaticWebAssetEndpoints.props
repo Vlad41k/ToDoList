@@ -552,17 +552,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"notf2xhcfb"},{"Name":"integrity","Value":"sha256-\u002BUW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac="},{"Name":"label","Value":"_content/TODO-app/lib/bootstrap/dist/js/bootstrap.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"145401"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002BUW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 09:28:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TODO-app/TODO-app.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TODO-app.ejg1bffgth.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/TODO-app/TODO-app.9og0r22xyo.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TODO-app.9og0r22xyo.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Bn9uLMIQ9fGru3znozCI7nb/r70mzgfXIeANKDnWfn4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6594"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Bn9uLMIQ9fGru3znozCI7nb/r70mzgfXIeANKDnWfn4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Feb 2025 12:13:51 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9og0r22xyo"},{"Name":"integrity","Value":"sha256-afd/uUrm8BdcquT\u002BJzNODJxZzaEMDPk8TdA2QN8rXiY="},{"Name":"label","Value":"_content/TODO-app/TODO-app.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6596"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022afd/uUrm8BdcquT\u002BJzNODJxZzaEMDPk8TdA2QN8rXiY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 09:24:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TODO-app/TODO-app.ejg1bffgth.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TODO-app.ejg1bffgth.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/TODO-app/TODO-app.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TODO-app.9og0r22xyo.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ejg1bffgth"},{"Name":"integrity","Value":"sha256-Bn9uLMIQ9fGru3znozCI7nb/r70mzgfXIeANKDnWfn4="},{"Name":"label","Value":"_content/TODO-app/TODO-app.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6594"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Bn9uLMIQ9fGru3znozCI7nb/r70mzgfXIeANKDnWfn4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Feb 2025 12:13:51 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-afd/uUrm8BdcquT\u002BJzNODJxZzaEMDPk8TdA2QN8rXiY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6596"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022afd/uUrm8BdcquT\u002BJzNODJxZzaEMDPk8TdA2QN8rXiY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 09:24:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

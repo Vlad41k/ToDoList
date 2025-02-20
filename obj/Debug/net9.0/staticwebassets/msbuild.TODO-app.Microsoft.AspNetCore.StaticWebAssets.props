@@ -828,23 +828,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js.map'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TODO-app.ejg1bffgth.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TODO-app.9og0r22xyo.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>TODO-app</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/TODO-app</BasePath>
-      <RelativePath>TODO-app.ejg1bffgth.bundle.scp.css</RelativePath>
+      <RelativePath>TODO-app.9og0r22xyo.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>ejg1bffgth</Fingerprint>
-      <Integrity>Bn9uLMIQ9fGru3znozCI7nb/r70mzgfXIeANKDnWfn4=</Integrity>
+      <Fingerprint>9og0r22xyo</Fingerprint>
+      <Integrity>afd/uUrm8BdcquT+JzNODJxZzaEMDPk8TdA2QN8rXiY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TODO-app.ejg1bffgth.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TODO-app.9og0r22xyo.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
