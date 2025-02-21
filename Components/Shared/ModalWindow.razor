@@ -1,3 +1,5 @@
+@inject ILanguageContainerService languageContainer
+
 <div class="modal fade show" style="display:block; background-color: rgba(10,10,10,.4);" aria-modal="true" role="dialog">
 	<div class="modal-dialog" style="border-radius:0.2cm; box-shadow: #000000 0px 5px 20px;" role="document">
     	<div class="modal-content">
@@ -15,12 +17,12 @@
             			<button type="button" class="btn btn-primary" @onclick=@ModalOk>OK</button>
             		break;
           			case ModalDialogType.OkCancel:
-            			<button type="button" class="btn btn-light" @onclick="@ModalCancel">Cancel</button>
+            			<button type="button" class="btn btn-light" @onclick="@ModalCancel">@languageContainer.Keys["CancelButton"]</button>
             			<button type="button" class="btn btn-primary" @onclick=@ModalOk>OK</button>
             		break;
           			case ModalDialogType.DeleteCancel:
-            			<button type="button" class="btn btn-light" @onclick="@ModalCancel">Cancel</button>
-            			<button type="button" class="btn btn-danger" @onclick=@ModalOk>Delete</button>
+            			<button type="button" class="btn btn-light" @onclick="@ModalCancel">@languageContainer.Keys["CancelButton"]</button>
+            			<button type="button" class="btn btn-danger" @onclick=@ModalOk>@languageContainer.Keys["DeleteButton"]</button>
             		break;
         		}
       		</div>

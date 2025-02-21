@@ -1,26 +1,27 @@
+@inject ILanguageContainerService languageContainer
 
 <div class="modal fade show" style="display:block; background-color: rgba(10,10,10,.4);" aria-modal="true" role="dialog">
     <div class="modal-dialog" style="border-radius:0.2cm; box-shadow: #000000 0px 5px 20px;" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Task Editor</h5>
+                <h5 class="modal-title">@languageContainer.Keys["TaskEditorTitle"]</h5>
                 <button type="button" class="btn-close" @onclick="@ModalClose" data-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <EditForm  Model="tempTask" OnValidSubmit="HandleValidSubmit">
                     <DataAnnotationsValidator />
                         <div class="mb-3">
-                            <label class="form-label" for="name">Task name:</label>
+                            <label class="form-label" for="name">@languageContainer.Keys["TaskName"]</label>
                             <InputText class="form-control" id="name" @bind-Value="tempTask.Name" />
                             <ValidationMessage For="@(() => tempTask.Name)" />
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" for="descriotion">Task Description:</label>
+                            <label class="form-label" for="descriotion">@languageContainer.Keys["TaskDescription"]</label>
                             <InputTextArea class="form-control" id="descriotion" @bind-Value="tempTask.Description" rows="4" />
                             <ValidationMessage For="@(() => tempTask.Description)" />
                         </div>
                         <div class="text-end">
-                            <button class="btn btn-primary" type="submit">Submit</button>
+                            <button class="btn btn-primary" type="submit">@languageContainer.Keys["SubmitButton"]</button>
                         </div>
                 </EditForm>
             </div>

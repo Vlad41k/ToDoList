@@ -1,0 +1,20 @@
+@rendermode InteractiveServer
+@inject ILanguageContainerService languageContainer
+@inject NavigationManager NavigationManager
+
+<button class="btn" @onclick= '(() => SetLanguage("en-US"))'>
+    <img src="https://storeusa.piaggio.com/img/united-states.png"
+ 	 alt="Button Image" style="width: 50px; height: 50px;">
+</button>
+<button class="btn" @onclick= '(() => SetLanguage("de-DE"))'>
+    <img src="https://www.pngmart.com/files/17/Germany-Flag-PNG-Transparent-Image.png"
+ 	 alt="Button Image" style="width: 50px; height: 50px;">
+</button>
+
+@code{
+    void SetLanguage(string cultureCode)
+    {
+        languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo(cultureCode));
+        NavigationManager.NavigateTo(NavigationManager.Uri, true);
+    }
+}

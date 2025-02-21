@@ -1,4 +1,5 @@
 ﻿@inherits LayoutComponentBase
+@inject ILanguageContainerService languageContainer
 
 <div class="page">
     <div class="sidebar">
@@ -7,7 +8,7 @@
 
     <main>
         <div class="top-row px-4">
-            <input type="checkbox">
+            <LanguagesToSwitch />
         </div>
 
         <article class="content px-4">

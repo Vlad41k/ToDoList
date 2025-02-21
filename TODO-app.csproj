@@ -8,12 +8,20 @@
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   </PropertyGroup>
 
+
+
   <ItemGroup>
+  
+    <EmbeddedResource Include="Resources\en-US.yml" />
+    <EmbeddedResource Include="Resources\de-DE.yml" />
+    <PackageReference Include="AKSoftware.Localization.MultiLanguages" Version="5.9.12" />
+
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.1">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
+
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
 

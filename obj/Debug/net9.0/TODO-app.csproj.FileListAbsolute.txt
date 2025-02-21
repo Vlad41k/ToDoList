@@ -202,3 +202,5 @@ c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\TODO-app.sourcelink
 c:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\scopedcss\Components\Shared\TaskEditorForm.razor.rz.scp.css
 C:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\compressed\f3gplp22b2-9og0r22xyo.gz
 C:\Users\v.vitko\Desktop\Prakticum\TODO-app\obj\Debug\net9.0\compressed\pe79023blm-9og0r22xyo.gz
+c:\Users\v.vitko\Desktop\Prakticum\TODO-app\bin\Debug\net9.0\AKSoftware.Localization.MultiLanguages.dll
+c:\Users\v.vitko\Desktop\Prakticum\TODO-app\bin\Debug\net9.0\YamlDotNet.dll

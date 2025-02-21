@@ -1,0 +1,12 @@
+StartPage: Heim
+AddTaskButton: Erstellen einer neuen Aufgabe
+StatusTableHeader: Status
+TaskTableHeader: Aufgabe
+TaskEditorTitle: Aufgaben-Editor
+TaskName: Name der Aufgabe
+TaskDescription: Aufgaben
+SubmitButton: Senden
+DeleteTaskTitle: Sind Sie sicher?
+DeleteTaskText: Möchten Sie diese Aufgabe löschen?
+CancelButton: Abbrechen
+DeleteButton: Löschen

@@ -1,6 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using TODO_app.Components;
 using TODO_app.Services;
+using AKSoftware.Localization.MultiLanguages;
+using System.Reflection;
+using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,11 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-// builder.Services.AddDbContext<ApplicationDbContext> (options => 
-//     {
-//         string connectionString = builder.Configuration.GetConnectionString("DefaultConnection")!;
-//         options.UseSqlServer(connectionString);
-//     });
+builder.Services.AddLanguageContainer(Assembly.GetExecutingAssembly(), CultureInfo.GetCultureInfo("de-DE"));
 
 var app = builder.Build();
 
